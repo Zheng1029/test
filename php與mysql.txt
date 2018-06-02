@@ -1,0 +1,15 @@
+http://seanstar5317.pixnet.net/blog/post/28092031-%5bandroid%5d%E5%BE%9Emysql-%E6%8A%93%E8%B3%87%E6%96%99%EF%BC%8C%E5%8B%95%E6%85%8B%E6%96%B0%E5%A2%9Etextview%E8%87%B3tablela  -[Android]從Mysql 抓資料，動態新增TextView至TableLayout
+
+http://nchu-cinc-ucampus-research-project.blogspot.com/2011/07/android-php-mysql.html  -ANDROID 利用 PHP 連結 MYSQL
+
+
+https://www.youtube.com/watch?v=e4eFBQmWs8Q   -How to Connect Android with PHP, MySQL ?? Best Android Studio Tutorial ?? ANDROID PHONE
+
+https://www.youtube.com/watch?v=ye-BFHAvRRI -Android Studio 連線MySQL教學POST抓取(org.apache.http.legacy)
+
+https://www.youtube.com/watch?v=c7tkts9pDYk  -Android Studio 連線MySQL教學GET抓取(org.apache.http.legacy)
+
+
+http://austintodo.pixnet.net/blog/post/23821431-php---mysql-%E6%95%99%E5%AD%B8  -php MySQL 教學
+
+http://r2internote.blogspot.com/2013/09/androidphp_9.html  -從Android傳值給php
