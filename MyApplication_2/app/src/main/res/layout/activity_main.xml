@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 本檔案為主活動之版面配置檔，其所使用到的xml屬性的意義說明如下:
+     xmlns:android="http://schemas.android.com/apk/res/android" 設定android此一前置詞代表(map)後面的URI名稱空間
+     android:layout_weight="0.6"  設定該元件佔同一個容器整個寬度的0.6， 在同一個容器中的所有成員之總計為1.0
+     android:hint 提示字串 
+     android:layout_width="match_parent"   設定該元件的寬度與該元件所在容器(它的父類別)之寬度相同
+     android:layout_width="wrap_content"   設定該元件的寬度與該元件所包覆的內容相同
+     android:layout_hight="match_parent"   設定該元件的高度與該元件所在容器(它的父類別)之高度相同
+     android:layout_hight="wrap_content"   設定該元件的高度與該元件所包覆的內容相同
+     android:orientation="horizontal" 設定該容器的顯示方向為水平
+     android:orientation="vertical" 設定該容器的顯示方向為垂直
+     android:text="消費金額:" 設定該元件的文字
+     android:textSize="16sp" 設定文字大小為16sp)
+     android:textColor="#FF0000" 設定文字的顏色，利用RGB十六進位值(紅、綠、藍)，#000000為黑色，#FFFFFF為白色
+     android:inputType="numberDecimal" 輸入文字盒之輸入類型為數值
+     android:inputType="text" 輸入文字盒之輸入類型為文字
+     android:onClick="btnManageExpenseType_Click" 設定該元件之點擊事件處理方法
+     android:id="@+id/btnChoseType" 設定該元件的id常數，以便可以在Java程式中利用findViewById(R.id.btnChoseType)取出該元件
+     android:backgroud="#RGB"  設定背景顏色，R，G，B紅綠藍16進位值
+ 注意:這個版面配置檔利用ScrollView當最外層的容器，可以捲動內容，以便不論手機是直向放或橫向放(垂直方向比較短)都可以操作 
+ -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/th">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="12dp"
+        android:background="#fbff02"
+        android:gravity="center_horizontal"
+        android:text="運動紀錄管理小幫手"
+        android:textColor="#e90000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:background="#00f7ff"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="消耗的卡路里量:"
+        android:textColor="#0044ff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/etxtPrice"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <EditText
+        android:id="@+id/etxtPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="請輸入卡路里量"
+        android:inputType="numberDecimal"
+        android:textColorHint="#010101"
+        android:textSize="16sp"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/txtPrice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+
+    <TextView
+        android:id="@+id/txtType"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#00f7ff"
+        android:gravity="center_horizontal"
+        android:text="管理運動種類:"
+        android:textColor="#0044ff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/spnExpenseTypeList"
+        app:layout_constraintTop_toBottomOf="@+id/etxtPrice" />
+
+    <Spinner
+        android:id="@+id/spnExpenseTypeList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/txtType"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrice" />
+
+
+    <TextView
+        android:id="@+id/txtComment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#00f7ff"
+        android:gravity="center_horizontal"
+        android:text="運動紀錄:"
+        android:textColor="#0044ff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/etxtComment"
+        app:layout_constraintTop_toBottomOf="@+id/txtType" />
+
+    <EditText
+        android:id="@+id/etxtComment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="2dp"
+        android:hint="請填寫說明"
+        android:textColorHint="#080808"
+        android:textSize="16sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/txtComment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnExpenseTypeList" />
+
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#d9ff00"
+        android:onClick="btnDate_Click"
+        android:text="選擇紀錄日期"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvDate"
+        app:layout_constraintTop_toBottomOf="@+id/txtComment" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintStart_toEndOf="@+id/btnDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etxtComment" />
+
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#ff00f7"
+        android:onClick="btnSave_Click"
+        android:text="儲存運動紀錄"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDate" />
+
+    <Button
+        android:id="@+id/btnQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#0088ff"
+        android:onClick="btnQuery_Click"
+        android:text="查詢運動紀錄"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSave" />
+
+    <Button
+        android:id="@+id/btnManageExpenseType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#00ff13"
+        android:onClick="btnManageExpenseType_Click"
+        android:text="管理運動類別"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnQuery" />
+
+
+    <TextView
+        android:id="@+id/tvMainOutput"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnManageExpenseType" />
+
+    <Button
+        android:id="@+id/btnClearMainOutput"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#00adff"
+        android:onClick="btnClearMainOutput_Click"
+        android:text="清除顯示區"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCloseApp"
+        app:layout_constraintTop_toBottomOf="@+id/tvMainOutput" />
+
+    <Button
+        android:id="@+id/btnCloseApp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#00adff"
+        android:onClick="btnCloseApp_Click"
+        android:text="關閉雲端記帳簿"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/btnClearMainOutput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintTop_toBottomOf="@+id/tvMainOutput" />
+
+</android.support.constraint.ConstraintLayout>

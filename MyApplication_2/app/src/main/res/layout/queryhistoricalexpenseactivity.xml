@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/linearLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/boxing">
+
+
+	<TextView
+		android:id="@+id/textViewTitle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="8dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginTop="12dp"
+		android:background="#fbff02"
+		android:gravity="center_horizontal"
+		android:text="查詢運動記錄介面"
+		android:textColor="#e90000"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+
+	<Button
+		android:id="@+id/btnChoseStartDate"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:layout_marginTop="8dp"
+		android:background="#00f7ff"
+		android:onClick="btnChoseStartDate_Click"
+		android:text="選擇起始日期"
+		android:textColor="#0044ff"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toStartOf="@+id/tvStartDate"
+		app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+	<TextView
+		android:id="@+id/tvStartDate"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:layout_marginTop="24dp"
+		android:textSize="16sp"
+		android:background="#ffffff"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintStart_toEndOf="@+id/btnChoseStartDate"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewTitle"  />
+
+
+	<Button
+		android:id="@+id/btnChoseEndDate"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:layout_marginTop="16dp"
+		android:background="#00f7ff"
+		android:onClick="btnChoseEndDate_Click"
+		android:text="選擇結束日期"
+		android:textColor="#0044ff"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toStartOf="@+id/tvEndDate"
+		app:layout_constraintTop_toBottomOf="@+id/btnChoseStartDate" />
+
+	<TextView
+		android:id="@+id/tvEndDate"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:layout_marginTop="24dp"
+		android:textSize="16sp"
+		android:background="#ffffff"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintStart_toEndOf="@+id/btnChoseEndDate"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btnChoseStartDate" />
+
+
+	<RadioButton
+		android:id="@+id/radioButtonByDate"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:layout_marginTop="16dp"
+		android:checked="true"
+		android:text="依日期先後顯示"
+		android:textColor="#ff00ae"
+		android:background="#ffffff"
+		android:textSize="16sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toStartOf="@+id/radioButtonByType"
+		app:layout_constraintTop_toBottomOf="@+id/btnChoseEndDate"/>
+
+	<RadioButton
+		android:id="@+id/radioButtonByType"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:layout_marginTop="16dp"
+		android:text="依運動種類顯示"
+		android:textColor="#ff00ae"
+		android:background="#ffffff"
+		android:textSize="16sp"
+		app:layout_constraintStart_toEndOf="@+id/radioButtonByDate"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btnChoseEndDate"/>
+
+
+	<Button
+		android:id="@+id/btnQuery"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:layout_marginTop="8dp"
+		android:background="#48ff00"
+		android:onClick="btnQuery_Click"
+		android:text="查詢紀錄"
+		android:textColor="#FFFFFF"
+		android:textSize="16sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toStartOf="@+id/btnDelete"
+		app:layout_constraintTop_toBottomOf="@+id/radioButtonByType" />
+
+	<Button
+		android:id="@+id/btnDelete"
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:layout_marginTop="8dp"
+		android:background="#48ff00"
+		android:onClick="btnDelete_Click"
+		android:text="刪除紀錄"
+		android:textColor="#FFFFFF"
+		android:textSize="16sp"
+		app:layout_constraintStart_toEndOf="@+id/btnQuery"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/radioButtonByType" />
+
+
+	<TextView
+		android:id="@+id/tvOutput"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:layout_marginTop="8dp"
+		android:background="#ffffff"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/btnDelete" />t
+
+
+	<Button
+		android:id="@+id/btnClearOutput"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="8dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginTop="8dp"
+		android:background="#00adff"
+		android:onClick="btnClearMainOutput_Click"
+		android:text="清除顯示區"
+		android:textColor="#FFFFFF"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toStartOf="@+id/btnReturnToMainActivity"
+		app:layout_constraintTop_toBottomOf="@+id/tvOutput" />
+
+	<Button
+		android:id="@+id/btnReturnToMainActivity"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginRight="8dp"
+		android:layout_marginLeft="8dp"
+		android:layout_marginTop="8dp"
+		android:background="#00adff"
+		android:onClick="btnReturnToMainActivity_Click"
+		android:text="返回首頁"
+		android:textColor="#FFFFFF"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		app:layout_constraintHorizontal_weight="1"
+		app:layout_constraintStart_toEndOf="@+id/btnClearOutput"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/tvOutput" />
+
+</android.support.constraint.ConstraintLayout>

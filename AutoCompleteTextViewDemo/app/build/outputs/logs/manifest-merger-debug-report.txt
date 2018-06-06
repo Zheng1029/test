@@ -1,0 +1,110 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\dd5eae8c9e83e8886b06d6f1a5fc903d\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\ae8ab3883fd5882194ac5db04ecb7158\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\f067a04fd449198c8d39521d7eaca313\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.0.aar\2f22b9be35dbd41db8d70b9f94be5566\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.0.aar\bfadd741942e7005b17ff369a4fd13e6\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.0.aar\16ab8f6ed3c6fc46a8454dd7956ff47c\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.0.aar\ba4330ca243996baddd058a69973e1a7\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.0.aar\206d08f520252f583cdf9130c7ab6ae0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\ab2b308add96448951ce89feb59a2c4f\AndroidManifest.xml:17:1-27:12
+INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\dd5eae8c9e83e8886b06d6f1a5fc903d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\dd5eae8c9e83e8886b06d6f1a5fc903d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\ae8ab3883fd5882194ac5db04ecb7158\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\ae8ab3883fd5882194ac5db04ecb7158\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\f067a04fd449198c8d39521d7eaca313\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\f067a04fd449198c8d39521d7eaca313\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.0.aar\2f22b9be35dbd41db8d70b9f94be5566\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.0.aar\2f22b9be35dbd41db8d70b9f94be5566\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.0.aar\bfadd741942e7005b17ff369a4fd13e6\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.0.aar\bfadd741942e7005b17ff369a4fd13e6\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.0.aar\16ab8f6ed3c6fc46a8454dd7956ff47c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.0.aar\16ab8f6ed3c6fc46a8454dd7956ff47c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.0.aar\ba4330ca243996baddd058a69973e1a7\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.0.aar\ba4330ca243996baddd058a69973e1a7\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.0.aar\206d08f520252f583cdf9130c7ab6ae0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.0.aar\206d08f520252f583cdf9130c7ab6ae0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\ab2b308add96448951ce89feb59a2c4f\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\ab2b308add96448951ce89feb59a2c4f\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:9:9-40
+activity#idv.ron.autocompletetextviewdemo.MainActivity
+ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:10:9-18:20
+	android:label
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:12:13-45
+	android:name
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:11:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\dd5eae8c9e83e8886b06d6f1a5fc903d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\dd5eae8c9e83e8886b06d6f1a5fc903d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\ae8ab3883fd5882194ac5db04ecb7158\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.1.0.aar\ae8ab3883fd5882194ac5db04ecb7158\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\f067a04fd449198c8d39521d7eaca313\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.1.0.aar\f067a04fd449198c8d39521d7eaca313\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.0.aar\2f22b9be35dbd41db8d70b9f94be5566\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-v4-25.1.0.aar\2f22b9be35dbd41db8d70b9f94be5566\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.0.aar\bfadd741942e7005b17ff369a4fd13e6\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-fragment-25.1.0.aar\bfadd741942e7005b17ff369a4fd13e6\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.0.aar\16ab8f6ed3c6fc46a8454dd7956ff47c\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.1.0.aar\16ab8f6ed3c6fc46a8454dd7956ff47c\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.0.aar\ba4330ca243996baddd058a69973e1a7\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.1.0.aar\ba4330ca243996baddd058a69973e1a7\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.0.aar\206d08f520252f583cdf9130c7ab6ae0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.1.0.aar\206d08f520252f583cdf9130c7ab6ae0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\ab2b308add96448951ce89feb59a2c4f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\support-compat-25.1.0.aar\ab2b308add96448951ce89feb59a2c4f\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.1.0.aar\dd5eae8c9e83e8886b06d6f1a5fc903d\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+		ADDED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\androidTest\AutoCompleteTextViewDemo\app\src\main\AndroidManifest.xml
